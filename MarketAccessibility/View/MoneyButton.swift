@@ -18,7 +18,6 @@ class MoneyButton: UIButton {
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.addTarget(self, action: #selector(didSelect), for: .touchUpInside)
-        backgroundColor = .red
     }
 
     required init?(coder aDecoder: NSCoder) {
